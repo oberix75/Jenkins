@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'netstat -lapute"'
+                sh 'netstat -lapute'
                 sh '''
                     ss -lataup
                     lsof -l
